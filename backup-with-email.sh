@@ -5,6 +5,7 @@
 # rj.kunde@gmail.com
 # Complete list of rsync options: https://ss64.com/bash/rsync_options.html
 # Tested on Linux Ubuntu 18.04LTS
+# Please see README.md for initial setup process
 
 # Run rsync to clone one directory, to another
 # Any files deleted from primary directory are removed from secondary
