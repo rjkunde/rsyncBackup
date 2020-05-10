@@ -45,6 +45,7 @@ Top of the hour, 3am, weekly
 Every minute
 
 Quick Reference:
+```
 *     *     *   *    *   command to be executed
 -     -     -   -    -
 |     |     |   |    |
@@ -53,5 +54,6 @@ Quick Reference:
 |     |     +--------- day of        month (1 - 31)
 |     +----------- hour (0 - 23)
 +------------- min (0 - 59)
+```
 Source: https://www.jessicayung.com/automate-running-a-script-using-crontab/
 
