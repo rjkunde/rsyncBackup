@@ -3,7 +3,7 @@
 ### Requirements
 sendemail command line tool, SSL libraries, rsync, and log file to write to
 
-#### Installation
+### Installation
 ##### Install sendemail command line too
 ```sudo apt-get install sendemail```
 ##### Install SSL libraries
