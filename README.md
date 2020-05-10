@@ -20,8 +20,8 @@ sendemail command line tool, SSL libraries, rsync, and log a file to write to
 ### Edit backup-with-email.sh file
 1. Set /path/to/primary/ to source directory
 2. Set /path/to/secondary/ to destination directory
-3. Replace fromEmailAddress@gmail.com
-4. Replace toEmailAddress@gmail.com
+3. Replace all instances of fromEmailAddress@gmail.com
+4. Replace all instances of toEmailAddress@gmail.com
 5. Customize text, ex XYZ server, error messages etc
 6. Optional: In the else statement, comment out the echo, and uncomment the longer statement to enable "On Success Emails" 
 
