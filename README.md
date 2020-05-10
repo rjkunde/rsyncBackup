@@ -22,6 +22,7 @@ sendemail command line tool, SSL libraries, rsync, and log file to write to
 4. Replace toEmailAddress@gmail.com
 5. Customize text, ex XYZ server, error messages etc
 6. Optional: In the else statement, comment out the echo, and uncomment the longer statement to enable "On Success Emails" 
+*Note*: If using gmail as your smtp email provider, you will receive authentication errrors. See /var/log/sendEmail for debugging. In this case, you must enable "Allow less secure apps: ON" located in google account settings https://myaccount.google.com/lesssecureapps.
 
 ### Running backup-with-email.sh script
 Copy backup-with-email.sh to a location that is accessible by the user account you wish to run it as. For example, a logical place might be /home/username/backup-with-email.sh. If placed outside of an accessible directory, you will need to give read permissions to this user. Additionally, if you look at the rsync command:  
