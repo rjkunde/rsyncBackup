@@ -1,9 +1,11 @@
 # rsyncBackup
+Linux rsync backup script with email alerting
 
 ### Requirements
 sendemail command line tool, SSL libraries, rsync, and log file to write to
 
 ### Installation
+
 ##### Install sendemail command line too
 ```sudo apt-get install sendemail```
 ##### Install SSL libraries
