@@ -15,7 +15,18 @@ sendemail command line tool, SSL libraries, rsync, and log file to write to
 ##### Make sendemail log file writable
 ```sudo chmod 666 /var/log/sendEmail```
 
+### Edit backup-with-email.sh file
+1. Set /path/to/primary/ to source directory
+2. Set /path/to/secondary/ to destination directory
+3. Repalce fromEmailAddress@gmail.com
+4. Replace toEmailAddress@gmail.com
+5. Customize text, ex XYZ server, error messages etc
+6. Optional: In the else statement, comment out the echo, and uncomment the longer statement to enable "On Success Emails" 
+
 ### Running backup-with-email.sh script
-Copy backup-with-email.sh to a location that is accessible by the user account you wish to run it as. For example, a logical place might be /home/username/backup-with-email.sh. If placed outside of an accessible directory, you will need to give read permissions to your user. Additionally, if you look at the rsync command:  
+Copy backup-with-email.sh to a location that is accessible by the user account you wish to run it as. For example, a logical place might be /home/username/backup-with-email.sh. If placed outside of an accessible directory, you will need to give read permissions to this user. Additionally, if you look at the rsync command:  
 ```/usr/bin/rsync -av --delete /path/to/primary/ /path/to/secondary/```  
 The user running this must have read acccess to the primary directory, and read/write to the secondary.
+
+
+
