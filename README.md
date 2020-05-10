@@ -1,5 +1,4 @@
 # rsyncBackup
-Systemd linux service that creates backups of specificed databases (MySQL) and directories 
 
 Application Requirements  
 Created 1/30/2019  
