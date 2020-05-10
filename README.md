@@ -37,7 +37,7 @@ The user running this must have read acccess to the primary directory, and read/
 sh backup-with-email.sh
 
 #### Automate script with a cronjob
-crontab -e
+`crontab -e`  
 Choose one (or modify to your needs) and add it the bottom of crontab:
 `0 3 * * 1 sh /home/username/backup-with-email.sh` <-- Top of the hour, 3am, weekly
 `* * * * * /home/username/backup-with-email.sh` <-- Every minute
