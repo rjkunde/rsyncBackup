@@ -35,6 +35,7 @@ The user running this must have read acccess to the primary directory, and read/
 
 #### Run script
 sh backup-with-email.sh
+
 *Note:* Try with -av switch first, make sure it all works.
 
 #### Automate script with a cronjob
