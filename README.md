@@ -24,7 +24,7 @@ sendemail command line tool, SSL/TLS libraries, rsync, and log a file to write t
 4. Replace all instances of toEmailAddress@gmail.com
 5. Customize text, ex: XYZ server, error messages etc
 6. Optional: In the else statement, comment out the echo, and uncomment the longer statement to enable "On Success Emails" 
-7. Optional: In `/usr/bin/rsync -av --delete /path/to/source/directory /path/to/destination/directory/`, add or remove "v" to enable or disable verbose output to console. Nice for testing, not needed while running as a cron job.
+7. Optional: Modify `/usr/bin/rsync -av --delete /path/to/source/directory /path/to/destination/directory/`, add or remove "v" to enable or disable verbose output to console. Nice for testing, not needed while running as a cron job.
 
 *Note*: If using gmail as your smtp email provider, you will receive authentication errrors. See `/var/log/sendEmail` for debugging. In this case, you must enable "Allow less secure apps: ON" located in google account settings https://myaccount.google.com/lesssecureapps.
 
