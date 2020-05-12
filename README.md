@@ -8,7 +8,7 @@ sendemail command line tool, SSL/TLS libraries, rsync, and log a file to write t
 
 ##### Install sendemail command line too
 `sudo apt-get install sendemail`
-##### Install SSL libraries
+##### Install SSL/TLS libraries
 `sudo apt-get install libio-socket-ssl-perl libnet-ssleay-perl`
 ##### Install rsync (present on Ubuntu 18.04 by default)
 `sudo apt-get install rsync`
