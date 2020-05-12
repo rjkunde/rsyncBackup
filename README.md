@@ -1,7 +1,7 @@
 # rsyncBackup
 Linux rsync backup script with email alerting
 
-#### Requirements
+### Requirements
 sendemail command line tool, SSL/TLS libraries, rsync, and log a file to write to
 
 ### Installation
