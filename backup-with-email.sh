@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Monthly rsync backup with email report
+# rsync backup with email report
 # RJ Kunde
 # rj.kunde@gmail.com
 # Complete list of rsync options: https://ss64.com/bash/rsync_options.html
